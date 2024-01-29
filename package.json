@@ -1,0 +1,21 @@
+{
+  "name": "interface-extractor",
+  "version": "1.0.0",
+  "description": "An node interface extractor, that extract every interface in root: layout, pages and components folder and sub folders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "interface",
+    "extractor"
+  ],
+  "author": "Borgar Flaen Stensrud",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.23.6",
+    "@babel/parser": "^7.23.9",
+    "@babel/traverse": "^7.23.9"
+  }
+}
