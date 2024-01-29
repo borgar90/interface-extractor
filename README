@@ -1,0 +1,40 @@
+# Node Interface Extractor
+
+## Description
+
+Node Interface Extractor is a Node.js script designed to automate the extraction of TypeScript interfaces from `.ts` and `.tsx` files in a project. It scans specified directories, extracts each interface, and writes them into individual files in a designated types directory.
+
+## Installation
+
+To set up this project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/borgar90/interface-extractor.git
+   cd interface-extractor
+   ```
+
+Install Dependencies:
+bash
+Copy code
+npm install
+
+Usage
+Run the script with the following command:
+
+npm run start
+This will process all .ts and .tsx files in the specified directories, extracting interfaces and placing them into the ./types directory. Extracts from ./layout, ./pages, ./components for now.
+
+Contributing
+Contributions to the Node Interface Extractor are welcome! Here's how you can contribute:
+
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature/YourFeature).
+Commit your changes (git commit -am 'Add some feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a new Pull Request.
+
+License
+MIT License
+
+Project created and maintained by Borgar Flaen Stensrud.
