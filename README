@@ -9,10 +9,10 @@ Node Interface Extractor is a Node.js script designed to automate the extraction
 To set up this project locally, follow these steps:
 
 1. **Clone the Repository**:
-   ```bash
+  [code]
    git clone https://github.com/borgar90/interface-extractor.git
    cd interface-extractor
-   ```
+[code]
 
 Install Dependencies:
 bash
