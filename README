@@ -9,21 +9,21 @@ Node Interface Extractor is a Node.js script designed to automate the extraction
 To set up this project locally, follow these steps:
 
 1. **Clone the Repository**:
-```bash
+```
    git clone https://github.com/borgar90/interface-extractor.git
    cd interface-extractor
-
+```
 
 Install Dependencies:
-```bash
+```
 Copy code
 npm install
-
+```
 Usage
 Run the script with the following command:
-```bash
+```
 npm run start
-
+```
 This will process all .ts and .tsx files in the specified directories, extracting interfaces and placing them into the ./types directory. Extracts from ./layout, ./pages, ./components for now.
 
 Contributing
